@@ -30,6 +30,7 @@
         nums[i] = Math.floor(Math.random() * 101);
     }
     let minValue = findMin(nums);
+    dispArr(nums);
     document.write("</br>");
     document.write("</br>");
     document.write(" the min value is :" + minValue);
@@ -37,6 +38,9 @@
     let maxValue=findMax(nums);
     document.write("</br>");
     document.write("the max value is :" +maxValue);
+    function dispArr(nums){
+        alert(nums);
+    }
 
 
 </script>
